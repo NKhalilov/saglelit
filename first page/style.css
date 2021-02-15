@@ -2,105 +2,103 @@ body {
     background-color: #001848;
 }
 header {
-    background-color: #001848;
-    box-shadow: 2px 2px 2px 1px rgb(0, 3, 29);
-    border-radius: 2%;
-    padding: 5px;
+  background-color: #001848;
+  box-shadow: 2px 2px 2px 1px rgb(0, 3, 29);
+  border-radius: 2%;
+  padding: 15px;
 }
 .container {
-    display: inline-block;
-    position: absolute;
-    cursor: pointer;
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 30px;
-    height: 5px;
-    background-color:white;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-  }
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 5px;
+  background-color:white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
 .fa-home {
-    margin-top: 6px;
-    margin-left: 50px;
-    padding: auto 5px;
-    background-color: white;
-    color: #001848;
-    border-radius: 50%;
-    font-size: 28px;
-    width: 30px;
-    text-align: center;
+  margin-top: 6px;
+  margin-left: 50px;
+  padding: auto 5px;
+  background-color: white;
+  color: #001848;
+  border-radius: 50%;
+  font-size: 28px;
+  width: 30px;
+  text-align: center;
 }
 .fa-arrow-left {
-    margin-top: 6px;
-    margin-left: 5px;
-    padding: auto 5px;
-    background-color: white;
-    color: #001848;
-    border-radius: 50%;
-    font-size: 28px;
-    width: 30px;
-    text-align: center;
+  margin-top: 6px;
+  margin-left: 5px;
+  padding: auto 5px;
+  background-color: white;
+  color: #001848;
+  border-radius: 50%;
+  font-size: 28px;
+  width: 30px;
+  text-align: center;
 }
 .fa-arrow-right {
-    margin-top: 6px;
-    margin-left: 5px;
-    padding: auto 5px;
-    background-color: white;
-    color: #001848;
-    border-radius: 50%;
-    font-size: 28px;
-    width: 30px;
-    text-align: center;
+  margin-top: 6px;
+  margin-left: 5px;
+  padding: auto 5px;
+  background-color: white;
+  color: #001848;
+  border-radius: 50%;
+  font-size: 28px;
+  width: 30px;
+  text-align: center;
 }
 .fas:hover {
-    color: white;
-    background-color: #001848;
-    transition: 0.3s ease;
-    cursor: pointer;
+  color: white;
+  background-color: #001848;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 #uzb {
-    background: linear-gradient(180deg, rgb(0, 183, 255) 0% 30%, red 30% 33%, white 33% 60%, red 63% 66%,green 66% 100%);
-    border: none;
-    color: rgb(39, 106, 252);
-    padding: 8px 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 1px; 
-    transition-duration: 0.4s;
-    float: right;
-    cursor: pointer;
-  }
+  background: linear-gradient(180deg, rgb(0, 183, 255) 0% 30%, red 30% 33%, white 33% 60%, red 63% 66%,green 66% 100%);
+  border: none;
+  color: rgb(39, 106, 252);
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin-left: 1px; 
+  margin-right: 10px;
+  transition-duration: 0.4s;
+  float: right;
+  cursor: pointer;
+}
 
-  #rus {
-    background: linear-gradient(180deg, white 0% 33%, blue 33% 67%, red 67% 100%);
-    border: none;
-    color: rgb(39, 106, 252);
-    padding: 8px 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 1px; 
-    margin-right: 20px;
-    transition-duration: 0.4s;
-    float: right;
-    cursor: pointer;
- }
+#rus {
+  background: linear-gradient(180deg, white 0% 33%, blue 33% 67%, red 67% 100%);
+  border: none;
+  color: rgb(39, 106, 252);
+  padding: 8px 16px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin-left: 1px; 
+  margin-right: 20px;
+  transition-duration: 0.4s;
+  float: right;
+  cursor: pointer;
+}
 .grid-container {
     margin-top: 30px;
     margin-left:60px;
@@ -140,7 +138,47 @@ p {
     font-family: 'Roboto Slab', serif;
     margin-bottom: 10px;
     text-transform: lowercase;
-} 
+}
+footer {
+  background-color: #001848;
+  box-shadow: 2px 2px 2px 1px rgb(0, 3, 29);
+  border-radius: 2%;
+  text-align: center;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  padding-top: 50px;
+  padding-bottom: 6px;
+  margin-top: 6px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: white;
+}
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube:hover {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram:hover {
+  background: #5e4ec7;
+  color: white;
+}
 
 
 
