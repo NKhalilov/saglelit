@@ -101,12 +101,12 @@ header {
 }
 .grid-container {
     margin-top: 30px;
-    margin-left:60px;
+    margin-left:65px;
     max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-  }
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-gap: 10px 74px;
+}
 
   img:hover {
     box-shadow: 2px 2px 12px white;
