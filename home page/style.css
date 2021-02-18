@@ -142,15 +142,15 @@ ul {
     list-style-type: none;
     margin-left: 150px;
     margin-top: 2px;
+    margin-bottom: 100px;
 }
 li {
     margin-top: 1px;
-    line-height: 2.1;
     color: white;
     font-weight: bold;
     font-family: 'Comfortaa', cursive;
     text-decoration: none;
-    font-size: 38px;
+    font-size: 24px;
 }
 li:hover {
     font-size: 52px;
@@ -204,5 +204,4 @@ footer {
     background: #5e4ec7;
     color: white;
   }
-
 
