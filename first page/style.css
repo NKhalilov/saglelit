@@ -1,5 +1,5 @@
 body {
-    background-color: #001848;
+    background-color: #001848; 
 }
 header {
   background-color: #001848;
@@ -105,7 +105,7 @@ header {
     max-width: 100%;
     display: grid;
     grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
-    grid-gap: 10px 74px;
+    grid-gap: 25px 74px;
 }
 
   img:hover {
