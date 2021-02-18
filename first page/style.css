@@ -100,10 +100,15 @@ header {
   cursor: pointer;
 }
 
+main {
+  display: inline-block;
+  margin-left: 105px;
+}
+
 .grid-item {
-  margin: 10px 35px;
+  margin: 10px 65px;
   float: left;
-  width: 211px;
+  width: 200px;
 }
 .grid-item img {
   width: 100%;
