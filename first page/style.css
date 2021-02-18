@@ -99,13 +99,18 @@ header {
   float: right;
   cursor: pointer;
 }
-.grid-container {
-    margin-top: 30px;
-    margin-left:25px;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
-    grid-gap: 10px 74px;
+.grid-item {
+  margin: 10px 35px;
+  float: left;
+  width: 211px;
+}
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+.price img {
+  width: 20px;
+  height: 20px;
 }
 
   img:hover {
@@ -119,12 +124,7 @@ header {
 }
 .grid-item:hover {
     transform: scale(1.2);
-    
 }
-.grid-item {
-  border: 1px solid red;
-}
-
 
 p { 
       line-height: 2px;
