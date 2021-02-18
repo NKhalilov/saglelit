@@ -121,6 +121,9 @@ header {
     transform: scale(1.2);
     
 }
+.grid-item {
+  border: 1px solid red;
+}
 
 
 p { 
