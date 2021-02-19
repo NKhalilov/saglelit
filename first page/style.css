@@ -1,5 +1,5 @@
 body {
-    background-color: #001848; 
+    background: url(../ornament.png) center / cover no-repeat #001848;
 }
 
   header {

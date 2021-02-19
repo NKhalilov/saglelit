@@ -1,118 +1,198 @@
 body {
     background-color: #001848;
 }
-/* For screens that equal to 1024px or wider */
+header {
+    background-color: #001848;
+    box-shadow: 2px 2px 2px 1px rgb(0, 3, 29);
+    border-radius: 2%;
+    padding: 15px 0 15px 15px;
+}
+.container {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color:white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Home icon */
+.fa-home {
+    margin-top: 6px;
+    margin-left: 50px;
+    padding: auto 5px;
+    background-color: white;
+    color: #001848;
+    border-radius: 50%;
+    font-size: 28px;
+    width: 30px;
+    text-align: center;
+}
+
+/* Left icon */
+.fa-arrow-left {
+    margin-top: 6px;
+    margin-left: 5px;
+    padding: auto 5px;
+    background-color: white;
+    color: #001848;
+    border-radius: 50%;
+    font-size: 28px;
+    width: 30px;
+    text-align: center;
+}
+
+/* Right icon */
+.fa-arrow-right {
+    margin-top: 6px;
+    margin-left: 5px;
+    padding: auto 5px;
+    background-color: white;
+    color: #001848;
+    border-radius: 50%;
+    font-size: 28px;
+    width: 30px;
+    text-align: center;
+}
+.fas:hover {
+    color: white;
+    background-color: #001848;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+/* Uzbek language */
+#uzb {
+    background: linear-gradient(180deg, rgb(0, 183, 255) 0% 30%, red 30% 33%, white 33% 63%, red 63% 66%,green 66% 100%);
+    border: none;
+    color: rgb(39, 106, 252);
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-left: 1px; 
+    margin-right: 10px;
+    transition-duration: 0.4s;
+    float: right;
+    cursor: pointer;
+}
+
+/* Russian language */
+#rus {
+    background: linear-gradient(180deg, white 0% 33%, blue 33% 67%, red 67% 100%);
+    border: none;
+    color: rgb(39, 106, 252);
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-left: 1px; 
+    margin-right: 20px;
+    transition-duration: 0.4s;
+    float: right;
+    cursor: pointer;
+}
+
+#sag {
+    background: url(../carpet.jpg) center / cover no-repeat #48587a;
+    background-blend-mode: overlay;
+}
+
+#lelit {
+    background: url(../lelit-fon.jpg) center / cover no-repeat #48587a;
+    background-blend-mode: overlay;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+li {
+    margin-top: 1px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    font-size: 36px;
+    
+}
+li:hover {
+    font-size: 64px;
+    transition: 1s all ease;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+#romb {
+    margin-top: 1px;
+    width: 30px;
+    height: 30px;
+}
+
+ /* Footer */
+ footer {
+    background-color: #001848;
+    /* box-shadow: 2px 2px 2px 1px rgb(0, 3, 29); */
+    border-radius: 2%;
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 50px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+/* Social medias */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background: #5e4ec7;
+    color: white;
+}
+
+
+/* For screens that equal to 1300px or wider */
 @media (min-width: 1300px) {
     /* Header part */
-    header {
-        background-color: #001848;
-        box-shadow: 2px 2px 2px 1px rgb(0, 3, 29);
-        border-radius: 2%;
-        padding: 15px 0 15px 15px;
-    }
-    /* Three rows menu bar */
-    .container {
-        display: inline-block;
-        position: absolute;
-        cursor: pointer;
-    }
-    
-    .bar1, .bar2, .bar3 {
-        width: 30px;
-        height: 5px;
-        background-color:white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-    
-    .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        transform: rotate(-45deg) translate(-9px, 6px);
-    }
-    
-    .change .bar2 {opacity: 0;}
-    
-    .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        transform: rotate(45deg) translate(-8px, -8px);
-    }
-
-    /* Home icon */
-    .fa-home {
-        margin-top: 6px;
-        margin-left: 50px;
-        padding: auto 5px;
-        background-color: white;
-        color: #001848;
-        border-radius: 50%;
-        font-size: 28px;
-        width: 30px;
-        text-align: center;
-    }
-
-    /* Left icon */
-    .fa-arrow-left {
-        margin-top: 6px;
-        margin-left: 5px;
-        padding: auto 5px;
-        background-color: white;
-        color: #001848;
-        border-radius: 50%;
-        font-size: 28px;
-        width: 30px;
-        text-align: center;
-    }
-
-    /* Right icon */
-    .fa-arrow-right {
-        margin-top: 6px;
-        margin-left: 5px;
-        padding: auto 5px;
-        background-color: white;
-        color: #001848;
-        border-radius: 50%;
-        font-size: 28px;
-        width: 30px;
-        text-align: center;
-    }
-    .fas:hover {
-        color: white;
-        background-color: #001848;
-        transition: 0.3s ease;
-        cursor: pointer;
-    }
-
-    /* Uzbek language */
-    #uzb {
-        background: linear-gradient(180deg, rgb(0, 183, 255) 0% 30%, red 30% 33%, white 33% 60%, red 63% 66%,green 66% 100%);
-        border: none;
-        color: rgb(39, 106, 252);
-        padding: 8px 16px;
-        font-size: 16px;
-        margin-top: 10px;
-        margin-bottom: 4px;
-        margin-left: 1px; 
-        margin-right: 10px;
-        transition-duration: 0.4s;
-        float: right;
-        cursor: pointer;
-    }
-
-    /* Russian language */
-    #rus {
-        background: linear-gradient(180deg, white 0% 33%, blue 33% 67%, red 67% 100%);
-        border: none;
-        color: rgb(39, 106, 252);
-        padding: 8px 16px;
-        margin-top: 10px;
-        margin-bottom: 4px;
-        margin-left: 1px; 
-        margin-right: 20px;
-        transition-duration: 0.4s;
-        float: right;
-        cursor: pointer;
-    }
-
     /* Main part */
     main {
         display: flex;
@@ -121,8 +201,6 @@ body {
     }
 
     #sag {
-        background: url(../carpet.jpg) center / cover no-repeat #48587a;
-        background-blend-mode: overlay;
         margin-left: 10px;
         width: 50%;
         height: 700px;
@@ -132,8 +210,6 @@ body {
         transition: 0.3s all ease;
     } */
     #lelit {
-        background: url(../lelit-fon.jpg) center / cover no-repeat #48587a;
-        background-blend-mode: overlay;
         margin-left: 10px;
         width: 50%;
         height: 700px;
@@ -143,301 +219,78 @@ body {
         transition: 0.3s all ease;
     } */
     #sag-section {
-        width: 641.5px;
-        margin-top: 150px;
-        margin-right: 150px;
+        width: 50%;
+        margin-top: 20px;
+        padding-top: 200px;
+        margin-left: 150px;
         margin-bottom: 20px;
     } 
     #lelit-section {
-        width: 441.5px;
+        width: 50%;
         margin-top: 20px;
         margin-left: 250px;
         margin-bottom: 20px;
     }
-    ul {
-        list-style-type: none;
-        margin-left: 150px;
-        margin-top: 20px;
-        margin-bottom: 100px;
-    }
-    li {
-        margin-top: 1px;
-        color: white;
-        font-weight: bold;
-        font-family: 'Comfortaa', cursive;
-        text-decoration: none;
-        font-size: 24px;
-    }
-    li:hover {
-        font-size: 52px;
-        transition: 1s all ease;
-    }
-    a {
-        color: inherit;
-        text-decoration: none;
-    }
-    #romb {
-        margin-top: 1px;
-        width: 30px;
-        height: 30px;
-    }
-
-    /* Footer */
-    footer {
-        background-color: #001848;
-        /* box-shadow: 2px 2px 2px 1px rgb(0, 3, 29); */
-        border-radius: 2%;
-        text-align: center;
-        color: white;
-        font-family: 'Comfortaa', cursive;
-        padding-top: 50px;
-        margin-top: 15px;
-        margin-bottom: 6px;
-    }
-
-    /* Social medias */
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-        border-radius: 50%;
-    }
-    .fa-facebook:hover {
-        background: #3B5998;
-        color: white;
-    }
-    
-    .fa-twitter:hover {
-        background: #55ACEE;
-        color: white;
-    }
-    .fa-youtube:hover {
-        background: #bb0000;
-        color: white;
-    }
-    
-    .fa-instagram:hover {
-        background: #5e4ec7;
-        color: white;
-    }
 }
-
-@media only screen and (max-width: 1300px) {
-    header {
-        background-color: #001848;
-        box-shadow: 2px 2px 2px 1px rgb(0, 3, 29);
-        border-radius: 2%;
-        padding: 15px;
-    }
-    .container {
-        display: inline-block;
-        position: absolute;
-        cursor: pointer;
-    }
+@media only screen and (min-width: 768px) and (max-width: 1299px) {
     
-    .bar1, .bar2, .bar3 {
-        width: 30px;
-        height: 5px;
-        background-color:white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-    
-    .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        transform: rotate(-45deg) translate(-9px, 6px);
-    }
-    
-    .change .bar2 {opacity: 0;}
-    
-    .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        transform: rotate(45deg) translate(-8px, -8px);
-    }
-    .fa-home {
-        margin-top: 6px;
-        margin-left: 50px;
-        padding: auto 5px;
-        background-color: white;
-        color: #001848;
-        border-radius: 50%;
-        font-size: 28px;
-        width: 30px;
-        text-align: center;
-    }
-    .fa-arrow-left {
-        margin-top: 6px;
-        margin-left: 5px;
-        padding: auto 5px;
-        background-color: white;
-        color: #001848;
-        border-radius: 50%;
-        font-size: 28px;
-        width: 30px;
-        text-align: center;
-    }
-    .fa-arrow-right {
-        margin-top: 6px;
-        margin-left: 5px;
-        padding: auto 5px;
-        background-color: white;
-        color: #001848;
-        border-radius: 50%;
-        font-size: 28px;
-        width: 30px;
-        text-align: center;
-    }
-    .fas:hover {
-        color: white;
-        background-color: #001848;
-        transition: 0.3s ease;
-        cursor: pointer;
-    }
-    #uzb {
-        background: linear-gradient(180deg, rgb(0, 183, 255) 0% 30%, red 30% 33%, white 33% 60%, red 63% 66%,green 66% 100%);
-        border: none;
-        color: rgb(39, 106, 252);
-        padding: 8px 16px;
-        font-size: 16px;
-        margin-top: 10px;
-        margin-bottom: 4px;
-        margin-left: 1px; 
-        margin-right: 10px;
-        transition-duration: 0.4s;
-        float: right;
-        cursor: pointer;
-    }
-
-    #rus {
-        background: linear-gradient(180deg, white 0% 33%, blue 33% 67%, red 67% 100%);
-        border: none;
-        color: rgb(39, 106, 252);
-        padding: 8px 16px;
-        margin-top: 10px;
-        margin-bottom: 4px;
-        margin-left: 1px; 
-        margin-right: 20px;
-        transition-duration: 0.4s;
-        float: right;
-        cursor: pointer;
-    }
-
     main {
         display: block;
-        margin-right: 20px;
     }
 
     #sag {
-        background: url(../carpet.jpg) center / cover no-repeat #48587a;
-        background-blend-mode: overlay;
         margin: 6px 5px 10px 10px;
         height: 600px;
     }
     #lelit {
-        background: url(../lelit-fon.jpg) center / cover no-repeat #48587a;
-        background-blend-mode: overlay;
         margin: 6px 5px 10px 10px;
         height: 600px;
     }
     #sag-section {
+        display: block;
         width: 50%;
-        margin-top: 150px;
-        margin-left: 180px;
-        margin-right: 150px;
-        color: #001848
+        padding-top: 200px;
+        margin: 20px auto;
     } 
-
     #lelit-section {
-        width: 40%;
-        margin-top: 20px;
-        margin-left: 150px;
-        padding-left: 170px;
-        margin-right: 150px;
-        padding-right: 150px;
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+    }
+    li  {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 768px) {
+    main {
+        display: block;
+    }
+    #sag {
+        margin: 6px 5px 10px 10px;
+        height: 300px;
+    }
+    #lelit {
+        margin: 6px 5px 10px 10px;
+        height: 300px;
+    }
+    #sag-section {
+        width: 50%;
+        margin: 5px 130px;
+    } 
+    #lelit-section {
+        width: 50%;
+        margin: 5px 150px;
+        height: 50%;
     }
     ul {
-        list-style-type: none;
-        margin-left: 150px;
-        margin-top: 2px;
-        margin-bottom: 15px;
+        
     }
     li {
-        margin-top: 1px;
-        
-        color: white;
-        font-weight: bold;
-        font-family: 'Comfortaa', cursive;
-        text-decoration: none;
-        font-size: 24px;
-    }
-    li:last-child {
-        margin-bottom: 15px;
-    }
-    li:hover {
-        font-size: 52px;
-        transition: 1s all ease;
-    }
-    a {
-        color: inherit;
-        text-decoration: none;
+        font-size: 16px;
     }
     #romb {
         margin-top: 1px;
-        width: 30px;
-        height: 30px;
-    }
-
-    /* Footer */
-    footer {
-        background-color: #001848;
-        box-shadow: 2px 2px 2px 1px rgb(0, 3, 29);
-        border-radius: 2%;
-        text-align: center;
-        color: white;
-        font-family: 'Comfortaa', cursive;
-        padding-top: 50px;
-        padding-bottom: 6px;
-        margin-top: 6px;
-    }
-
-    /* Social medias */
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-        border-radius: 50%;
-    }
-    .fa-facebook:hover {
-        background: #3B5998;
-        color: white;
-    }
-    
-    .fa-twitter:hover {
-        background: #55ACEE;
-        color: white;
-    }
-    .fa-youtube:hover {
-        background: #bb0000;
-        color: white;
-    }
-    
-    .fa-instagram:hover {
-        background: #5e4ec7;
-        color: white;
-    }
-}
-@media only screen and (max-width: 600px) {
-    header {
-        background-color: #001848;
-        box-shadow: 2px 2px 2px 1px rgb(0, 3, 29);
-        border-radius: 2%;
-        padding: 15px;
-    
+        width: 15px;
+        height: 15px;
     }
 }
