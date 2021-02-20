@@ -142,6 +142,7 @@ header {
 #lelit {
     background: url(../lelit-fon.jpg) center / cover no-repeat #48587a;
     background-blend-mode: overlay;
+    content: 'Temporary unavailable';
 }
 
 ul {

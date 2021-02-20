@@ -155,9 +155,7 @@ body {
     text-align: center;
     color: white;
     font-family: 'Comfortaa', cursive;
-    padding-top: 50px;
-    padding-bottom: 6px;
-    margin-top: 6px;
+    margin-bottom: -60px;
   }
 
   .fa-shopping-cart {
@@ -196,10 +194,6 @@ body {
     color: white;
   }
 @media only screen and (min-width: 280px){
-  header {
-    padding: 0;
-  }
-  
   .grid-item {
     margin: 10px;
     float: left;
