@@ -173,10 +173,6 @@ li {
     font-size: 36px;
     
 }
-li:hover {
-    font-size: 64px;
-    transition: 1s all ease;
-}
 a {
     color: inherit;
     text-decoration: none;
@@ -299,6 +295,10 @@ a {
     }
     li  {
         font-size: 28px;
+    }
+    li:hover {
+        font-size: 64px;
+        transition: 1s all ease;
     }
 }
 @media screen and (max-width: 768px) {
