@@ -11,6 +11,8 @@ header {
     display: inline-block;
     position: absolute;
     cursor: pointer;
+    font-size: 16px;
+    border: none;
 }
 
 .bar1, .bar2, .bar3 {
@@ -31,8 +33,46 @@ header {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-}
+} 
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 0;
+    text-align: center;
+    font-family: Garamond;
+  }
 
+  
+  .dropdown-content a {
+    color: #001848;
+    padding: 6px 8px;
+    border-bottom: 1px solid #001848;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 2px;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+#sale {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
 /* Home icon */
 .fa-home {
     margin-top: 6px;
@@ -281,9 +321,6 @@ a {
         width: 50%;
         margin: 5px 150px;
         height: 50%;
-    }
-    ul {
-        
     }
     li {
         font-size: 16px;
