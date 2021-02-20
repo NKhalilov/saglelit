@@ -11,8 +11,6 @@ header {
     display: inline-block;
     position: absolute;
     cursor: pointer;
-    font-size: 16px;
-    border: none;
 }
 
 .bar1, .bar2, .bar3 {
@@ -87,20 +85,7 @@ header {
 }
 
 /* Left icon */
-.fa-arrow-left {
-    margin-top: 6px;
-    margin-left: 5px;
-    padding: auto 5px;
-    background-color: white;
-    color: #001848;
-    border-radius: 50%;
-    font-size: 28px;
-    width: 30px;
-    text-align: center;
-}
-
-/* Right icon */
-.fa-arrow-right {
+.fa-arrow-left, .fa-arrow-right {
     margin-top: 6px;
     margin-left: 5px;
     padding: auto 5px;
@@ -194,6 +179,12 @@ a {
     padding-top: 50px;
     margin-top: 15px;
     margin-bottom: 6px;
+}
+.fa-shopping-cart {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 54px;
 }
 
 /* Social medias */
