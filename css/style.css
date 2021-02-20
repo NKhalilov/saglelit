@@ -134,6 +134,7 @@ header {
     cursor: pointer;
 }
 
+
 #sag {
     background: url(../carpet.jpg) center / cover no-repeat #48587a;
     background-blend-mode: overlay;
