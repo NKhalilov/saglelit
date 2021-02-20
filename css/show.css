@@ -40,6 +40,7 @@
     font-size: 1.4vh;
     box-shadow: inset 6px 6px 6px gray;
     color: #001848;
+    
   }
   aside p {
     margin-left: 25px;
@@ -236,7 +237,7 @@
     top: 40%;
     width: auto;
     padding: 16px;
-    margin-top: -50px;
+    margin-top: 0;
     color: white;
     font-weight: bold;
     font-size: 20px;
