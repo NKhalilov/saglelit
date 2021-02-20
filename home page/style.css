@@ -314,13 +314,16 @@ a {
         height: 300px;
     }
     #sag-section {
-        width: 50%;
+        width: 70%;
         margin: 5px 40px;
     } 
     #lelit-section {
-        width: 50%;
+        width: 60%;
         margin: 5px 60px;
         height: 50%;
+    }
+    ul {
+        margin-left: 40px;
     }
     li {
         font-size: 16px;
