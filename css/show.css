@@ -1,9 +1,4 @@
-body {
-  background: url("../Image/isfahan1.jpg") no-repeat;
-  background-position-x: 125px;
-  background-position-y: 60px;
-  background-size: 873px 582px;
-}
+
 #grid {
     display: grid;
     height: 100vh;
@@ -42,24 +37,29 @@ body {
   }
   h2 {
       color: white;
-      font-family: 'Roboto Slab', serif;
+      font-family: 'Garamond', serif;
   }
   aside {
     background-image: linear-gradient( 180deg, white , rgb(125, 159, 233));
     text-align: center;
-    color: blue;
-    font-family: 'Roboto Slab', serif;
+    color: #001848;
+    font-family: 'Garamond', serif;
     font-size: 14px;
     box-shadow: inset 6px 6px 6px gray;
   }
   aside p {
     margin-left: 25px;
+    text-align: left;
+    color: #001848;
   }
   aside h2 {
     margin-left: 20px;
+    text-align: left;
+    color: #001848;
+    font-weight: bold;
   }
    aside button {
-    background-color: rgb(0, 16, 56);
+    background-color: #001848;
     color: white;
     border-radius: 17px;
     width: 175px;
@@ -219,11 +219,11 @@ body {
   .prev,
   .next {
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     top: 40%;
     width: auto;
     padding: 16px;
-    margin-top: -50px;
+    margin-top: 0;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -236,7 +236,6 @@ body {
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-    margin-right: 440px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
