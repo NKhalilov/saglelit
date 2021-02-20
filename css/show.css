@@ -10,7 +10,7 @@
                           "article nav aside"
                           "footer footer footer";
     grid-template-rows: 55px 1fr 1fr 1fr 1fr 1fr 1fr 75px;
-    grid-template-columns: 120px 2fr 1fr;
+    grid-template-columns: 120px 2fr 0.7fr;
     font-family: Arial;
     background-color: #001848;
     grid-gap: 5px;
@@ -42,6 +42,10 @@
     color: #001848;
     
   }
+  aside img {
+    width: 3.5vh;
+    height: 3.5vh;
+  }
   aside p {
     margin-left: 25px;
     color: #001848;
@@ -52,7 +56,7 @@
     margin-left: 20px;
     color: #001848;
     text-align: left;
-    line-height: 1vh;
+    line-height: 3vh;
   }
    aside button {
     background-color: rgb(0, 16, 56);
@@ -65,12 +69,18 @@
     box-shadow: 6px 6px 6px #3B5998;
   }
   aside i{
-    color: lightcoral;
+    color: #001848;
+    width: 2vh;
+    margin-right: 0.9vh;
   }
   .mark {
     float: right;
     font-size: 2vh;
     margin-right: 10px;
+  }
+  .mark img {
+    width: 2vh;
+    height: 2vh;
   }
   article  img {
     margin: 2px 0;
