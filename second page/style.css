@@ -1,3 +1,9 @@
+body {
+  background: url("../Image/isfahan1.jpg") no-repeat;
+  background-position-x: 125px;
+  background-position-y: 60px;
+  background-size: 873px 582px;
+}
 #grid {
     display: grid;
     height: 100vh;
@@ -10,7 +16,7 @@
                           "article nav aside"
                           "footer footer footer";
     grid-template-rows: 55px 1fr 1fr 1fr 1fr 1fr 1fr 75px;
-    grid-template-columns: 200px  1fr 1fr;
+    grid-template-columns: 120px 2fr 1fr;
     font-family: Arial;
     background-color: #001848;
     grid-gap: 5px;
@@ -66,7 +72,31 @@
   }
   article  img {
     margin: 2px 0;
+    width: 600%;
+    height: 75px;
   }
+  .container2 {
+    width: 350px;
+    
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {
+    width: 100%; 
+    background-color: #001848;
+    margin-left: 50px;
+    margin-right: 5px;
+  }
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .php {width: 60%; background-color: #808080;}
+
   .container {
     display: inline-block;
     position: absolute;
@@ -159,7 +189,9 @@
     float: right;
     cursor: pointer;
   }
-  
+  body {
+    margin: 0;
+  }
   * {
     box-sizing: border-box;
   }
@@ -187,7 +219,7 @@
   .prev,
   .next {
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 40%;
     width: auto;
     padding: 16px;
@@ -204,6 +236,7 @@
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+    margin-right: 440px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
@@ -222,12 +255,6 @@
   }
   
   /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
   
   .column:after {
     content: "";
@@ -257,9 +284,8 @@
     text-align: center;
     color: white;
     font-family: 'Comfortaa', cursive;
-    padding-top: 50px;
     padding-bottom: 6px;
-    margin-top: 6px;
+    margin-bottom: 6px;
   }
 
   .fa {
