@@ -185,7 +185,7 @@
     transition: 0.3s ease;
     cursor: pointer;
   }
-  #uzb {
+  #uz {
     background: linear-gradient(180deg, rgb(0, 183, 255) 0% 30%, red 30% 33%, white 33% 60%, red 63% 66%,green 66% 100%);
     border: none;
     color: rgb(39, 106, 252);
@@ -200,7 +200,7 @@
     cursor: pointer;
   }
 
-  #rus {
+  #en {
     background: linear-gradient(180deg, white 0% 33%, blue 33% 67%, red 67% 100%);
     border: none;
     color: rgb(39, 106, 252);

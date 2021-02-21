@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/d42e0aa07a.js" crossorigin="anonymous"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
   <title>SAG & Lelit</title>
   <link rel="shortcut icon" href="logo.png">
 </head>
@@ -24,8 +25,8 @@
     <a href="index.html"><i class="fas fa-home"></i></a>
     <a href="carpet.html"><i class="fas fa-arrow-left"></i></a>
     <i class="fas fa-arrow-right"></i>
-    <button id="uzb"></button>
-    <button id="rus"></button>
+    <button class="translate" id="uz"></button>
+    <button class="translate" id="en"></button>
 </header>
     
 <main>
@@ -82,30 +83,30 @@
 <aside>
   <h1>Isfahan</h1>
   <h1>5,0 <img src="Image/blueromb.png" alt="blueromb"></h1>
-  <h2><strong>Chidamliligi</strong></h2>
+  <h2><strong key="tolerance" class="lang">Chidamliligi</strong></h2>
   <span class="mark">4.5 <img src="Image/blueromb.png" alt="blueromb"></span>
-  <p>10 yil</p> 
+  <p key="year" class="lang">10 yil</p> 
   <div class="container2">
     <div class="skills html"></div>
   </div>
-  <h2>Qalinligi</h2>
+  <h2 key="bold" class="lang">Qalinligi</h2>
   <span class="mark">4.9<img src="Image/blueromb.png" alt="blueromb"></span>
-  <p>2 million tugun</p>
+  <p key="node" class=lang>2 million tugun</p>
   <div class="container2">
     <div class="skills css"></div>
   </div>
-  <h2>Material sifati</h2>
+  <h2 key="quality" class="lang">Material sifati</h2>
   <span class="mark">5.0<img src="Image/blueromb.png" alt="blueromb"> </span>
-  <p>Akril</p>
+  <p key="material" class="lang">Akril</p>
   <div class="container2">
     <div class="skills js"></div>
   </div>
-  <h2>Yangi kolleksiya</h2>
-  <h2><i class="fas fa-baby"></i>Juda oson tozalanadi</h2>
-  <h2><i class="fas fa-bed"></i>  Yotoqxonangiz uchun eng qulay tanlov</h2>
-  <h2><i class="fas fa-thumbs-up"></i>  Dizaynerlar tavsiya qiladi</h2>
-  <h1>389 <small>000</small> so'm</h1>
-  <button> <strong> Savatga qo'shish </strong> </button>
+  <h2 key="collection" class="lang">Yangi kolleksiya</h2>
+  <h2 key="fastness" class="lang"><i class="fas fa-baby"></i>Juda oson tozalanadi</h2>
+  <h2 key="bedroom" class="lang"><i class="fas fa-bed"></i>  Yotoqxonangiz uchun eng qulay tanlov</h2>
+  <h2 key="designers" class=" lang"><i class="fas fa-thumbs-up"></i>  Dizaynerlar tavsiya qiladi</h2>
+  <h1 key="price" class="lang">389 <small>000</small> so'm</h1>
+  <button> <strong key="cart" class="lang"> Savatga qo'shish </strong> </button>
 </aside>
 <article>
   <div class="row">
@@ -140,7 +141,7 @@
   </div>
 </article>
 <footer>
-  <h3>All rights are reserved &copy;</h3>
+  <h3 key="license" class="lang">All rights are reserved &copy;</h3>
   <a href="https://www.facebook.com/saggilamlari/" target="_blank" class="fa fa-facebook"></a>
   <a href="https://www.youtube.com/watch?v=jRT8o-cM6OE" target="_blank" class="fa fa-youtube"></a>
   <a href="https://www.instagram.com/saggilamlari/" target="_blank" class="fa fa-instagram"></a>
@@ -148,4 +149,5 @@
 </footer>
 </body>
 <script src="js/show.js"></script>
+<script src="js/lang.js"></script>
 </html>

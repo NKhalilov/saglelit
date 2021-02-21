@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d42e0aa07a.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 <header>
@@ -21,39 +22,39 @@
             <div class="bar3"></div>
     </div>
     <div id="dropdown-cont" class="dropdown-content">
-      <a href="#">Недавно просмотренные</a>
-      <a href="#"><i class="fas fa-bolt"></i>  Попульярные ковры</a>
-      <a href="#"><i class="fas fa-fire-alt"></i>  Новинки</a>
-      <a href="#"><img src="Image/sale-tag.svg" alt="sale" id="sale">  Скидки</a>
-      <a href="#"><i class="fas fa-users-cog"></i>   Настройки</a>
+      <a href="#" key="lastseen" class="lang">Недавно просмотренные</a>
+      <a href="#" key="famous" class="lang"><i class="fas fa-bolt"></i>Попульярные ковры</a>
+      <a href="#" key="new" class="lang"><i class="fas fa-fire-alt"></i>  Новинки</a>
+      <a href="#" key="sales" class="lang"><img src="Image/sale-tag.svg" alt="sale" id="sale">  Скидки</a>
+      <a href="#" key="settings" class="lang"><i class="fas fa-users-cog"></i>   Настройки</a>
     </div>
   </div>
 <i class="fas fa-home"></i>
 <i class="fas fa-arrow-left"></i>
 <i class="fas fa-arrow-right"></i>
-<button id="uzb"></button>
-<button id="rus"></button>
+<button class="translate" id="uz"></button>
+<button class="translate" id="en"></button>
 </header>
 <main>
     <section id="sag">
         <img src="Image/section-1.png" alt="sag-gilamlari" id="sag-section" width="450" height="150">
         <ul>
-            <li> <img src="Image/rhombus.png" alt="rombik" id="romb"> <a href="carpet.html">Ковры</a></li>
-            <li> <img src="Image/rhombus.png" alt="rombik" id="romb"><a href="kovrolin.html"> Ковролин</a></li>
-            <li> <img src="Image/rhombus.png" alt="rombik" id="romb"><a href="gazon.html"> Искусственный газон</a></li>
+            <li> <img src="Image/rhombus.png" alt="rombik" class="romb"> <a href="carpet.html" key="carpets" class="lang"> Ковры</a></li>
+            <li> <img src="Image/rhombus.png" alt="rombik" class="romb"> <a href="kovrolin.html" key="kovrolin" class="lang"> Ковролин</a></li>
+            <li> <img src="Image/rhombus.png" alt="rombik" class="romb"> <a href="gazon.html" key="grass" class="lang"> Искусственный газон</a></li>
         </ul>
     </section>
     <section id="lelit">
         <img src="Image/lelit.png" alt="lelit" id="lelit-section" width="450" height="350">
         <ul>
-            <li> <img src="Image/rhombus.png" alt="rombik" id="romb"> Постельное бельё</li>
-            <li> <img src="Image/rhombus.png" alt="rombik" id="romb"> Халаты</li>
-            <li> <img src="Image/rhombus.png" alt="rombik" id="romb"> Домашний текстиль</li>
+            <li> <img src="Image/rhombus.png" alt="rombik" class="romb"> <a href="#" key="bed" class="lang"> Постельное бельё</a></li>
+            <li> <img src="Image/rhombus.png" alt="rombik" class="romb"> <a href="#" key="bathrobe" class="lang">Халаты</a></li>
+            <li> <img src="Image/rhombus.png" alt="rombik" class="romb"> <a href="#" key="textile" class="lang"> Домашний текстиль</a></li>
         </ul>
     </section>
 </main>
 <footer>
-    <h3>All rights are reserved &copy;</h3>
+    <h3  key="license" class="lang">All rights are reserved &copy;</h3>
     <a href="https://www.facebook.com/saggilamlari/" target="_blank" class="fa fa-facebook"></a>
     <a href="https://www.youtube.com/watch?v=jRT8o-cM6OE" target="_blank" class="fa fa-youtube"></a>
     <a href="https://www.instagram.com/saggilamlari/" target="_blank" class="fa fa-instagram"></a>
@@ -61,4 +62,5 @@
 </footer>
 </body>
 <script src="js/app.js"></script>
+<script src="js/lang.js"></script>
 </html>
