@@ -167,6 +167,10 @@
     line-height: 1vh;
     color: #001848;
   }
+
+#name {
+  font-family: 'Reggae One', cursive;
+}
  
   .skills {
     text-align: right;
